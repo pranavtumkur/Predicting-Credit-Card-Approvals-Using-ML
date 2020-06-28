@@ -37,6 +37,7 @@ For the confusion matrix, the first element of the of the first row of the confu
 Let's see if we can do better. We can perform a [grid search](https://machinelearningmastery.com/how-to-tune-algorithm-parameters-with-scikit-learn/) of the model parameters to improve the model's ability to predict credit card approval. We will grid search over the following two:
 
 • tol
+
 • max_iter
 
 We will instruct GridSearchCV() to perform a [cross-validation](https://www.dataschool.io/machine-learning-with-scikit-learn/) of five folds, to determine the best possible result of classification accuracy.
